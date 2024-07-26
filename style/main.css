@@ -109,7 +109,7 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  right: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
@@ -218,6 +218,27 @@ body {
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
+}
+
+.img1{
+  height: 15px;
+  weight:15px;
+}
+.img2{
+  height: 15px;
+  weight:15px;
+}
+.img3{
+  height: 15px;
+  weight:15px;
+}
+.img4{
+  height: 15px;
+  weight:15px;
+}
+.img5{
+  height: 15px;
+  weight:15px;
 }
 
 #replay {
