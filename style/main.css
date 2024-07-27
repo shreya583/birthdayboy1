@@ -261,25 +261,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 30%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 27%;
+    left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 22%;
+    left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 22%;
+    left: 32%;
   }
 }
 
