@@ -11,6 +11,11 @@ body {
   visibility: hidden;
 }
 
+.profile-picture{
+  height: 300px;
+  max-width: 100%;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
@@ -109,12 +114,12 @@ body {
 }
 
 .six .hat {
-  left: 21.5%;
-  position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
-  width: 80px;
-}
+    position: absolute;
+    right: -65%; /* Align to the left edge of the screen */
+    top: 5%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for the height of the image */
+    width: 100px; /* Adjust width as needed */
+  }
 
 .baloons img {
   display: inline-block;
@@ -221,35 +226,39 @@ body {
 }
 
 .img1{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img2{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img3{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img4{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img5{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img6{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img7{
-  height: 350px;
+  height: 300px;
   max-width: 100%;
 }
 .img8{
-  height: 350px;
+  height: 300px;
+  max-width: 100%;
+}
+.img9{
+  height: 300px;
   max-width: 100%;
 }
 
@@ -261,7 +270,7 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 50%;
+    left: 37%;
   }
 }
 
