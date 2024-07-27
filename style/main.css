@@ -117,7 +117,7 @@ body {
     position: absolute;
     right: -65%; /* Align to the left edge of the screen */
     top: 5%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust for the height of the image */
+    transform: translateY(-40%); /* Adjust for the height of the image */
     width: 100px; /* Adjust width as needed */
   }
 
